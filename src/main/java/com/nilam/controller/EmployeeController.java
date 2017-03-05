@@ -22,7 +22,7 @@ public class EmployeeController {
 	@RequestMapping(value = "/employees", method = RequestMethod.GET)
 	public ModelAndView getAllEmployees() {
 		// return new ModelAndView("view page", "argument name", value);
-		return  new ModelAndView("employee", "allEmployees", employeeService.getAllEmployees());
+		return new ModelAndView("employee", "allEmployees", employeeService.getAllEmployees());
 	}
 
 }
