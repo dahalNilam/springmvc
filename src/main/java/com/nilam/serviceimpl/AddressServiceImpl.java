@@ -23,7 +23,7 @@ public class AddressServiceImpl implements AddressService {
 	}
 
 	@Override
-	public List<Address> getAddressList() {
+	public List<Address> getAllAddresses() {
 		// TODO Auto-generated method stub
 		return null;
 	}
